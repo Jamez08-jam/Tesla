@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+#sh{
+    width: 100px;
+}
+img{
+    width: 100%;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+#np{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+#sn{
+    width: 150px;
+}
+#in{
+    width: 100%;
+}
+
+main{
+   
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 20px;
+}
+
+
+.card{
+    gap: 20px;
+display: flex;
+    margin: 10px;
+    justify-content: space-around;
+    border: 2px solid rgb(179, 175, 175);
+    box-shadow: 0px 2px 2px rgb(183, 172, 172);
+}
+
+
+.small{
+    font-size: 10px; 
+    margin-top: 15px;
+}
+.lorem{
+    width: 100%;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.but{
+    background-color: black;
+    color: white;
+    
+    margin-left: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 100px;
+}
+
+.ic{
+    width: 100%;
+    
+}
+
+#map{
+    margin: 15px;
+    width: 60%;
+}
+
+#bf{
+    margin: 15px;
+    width: 40%;
+    
+}
+
+.fb{
+    margin: 10px;
+    width: 70%;
+    padding: 60px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+}
+#df{ 
+    display: flex;
+    margin: 20px;
+    gap: 300px;
+}
+
+
+button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
